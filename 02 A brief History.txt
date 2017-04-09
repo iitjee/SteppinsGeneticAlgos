@@ -1,0 +1,81 @@
+In the 1950s and the 1960s several computer scientists independently studied evolutionary systems with the
+idea that evolution could be used as an optimization tool for engineering problems. The idea in all these
+systems was to "evolve" a "population of candidate solutions" to a given problem, using operators inspired by
+natural genetic variation and natural selection.
+
+
+In 1960s  --  Rechenberg introduced "evolution strategies", a method he used to optimize real−valued parameters for devices 
+such as airfoils.  The field of evolution strategies has remained an active area of
+research, mostly developing independently from the field of genetic algorithms (although recently the two
+communities have begun to interact)
+
+Parallely in 1966 --  "evolutionary programming" was developed, a technique in which candidate solutions to given tasks were 
+represented as finite−state machines, which were evolved by randomly mutating their state−transition diagrams and selecting 
+the fittest. 
+
+ Together, evolution strategies, evolutionary programming, and genetic algorithms form the backbone
+of the field of evolutionary computation.
+
+Genetic algorithms (GAs) were invented by John Holland in the 1960s and were developed by Holland and
+his students and colleagues at the University of Michigan in the 1960s and the 1970s. In contrast with
+evolution strategies and evolutionary programming, Holland's original goal was not to design algorithms to
+solve specific problems, but rather to formally study the phenomenon of adaptation as it occurs in nature and
+to develop ways in which the mechanisms of natural adaptation might be imported into computer systems.
+
+ Holland's
+GA is a method for moving from one population of "chromosomes" (e.g., strings of ones and zeros, or "bits")
+to a new population by using a kind of "natural selection" together with the genetics−inspired operators of
+crossover, mutation, and inversion. Each chromosome consists of "genes" (e.g., bits), each gene being an
+instance of a particular "allele" (e.g., 0 or 1). The selection operator chooses those chromosomes in the
+population that will be allowed to reproduce, and on average the fitter chromosomes produce more offspring
+than the less fit ones. 
+
+
+Holland's introduction of a population−based algorithm with crossover, inversion, and mutation was a major
+innovation. (Rechenberg's evolution strategies started with a "population" of two individuals, one parent and
+one offspring, the offspring being a mutated version of the parent; many−individual populations and crossover
+were not incorporated until later. Fogel, Owens, and Walsh's evolutionary programming likewise used only
+mutation to provide variation.)
+
+In the last several years there has been widespread interaction among researchers studying various
+evolutionary computation methods, and the boundaries between GAs, evolution strategies, evolutionary
+programming, and other evolutionary approaches have broken down to some extent. Today, researchers often
+use the term "genetic algorithm" to describe something very far from Holland's original conception.
+
+
+
+1.2 THE APPEAL OF EVOLUTION
+Why use evolution as an inspiration for solving computational problems? To evolutionary−computation
+researchers, the mechanisms of evolution seem well suited for some of the most pressing computational
+problems in many fields
+ One example is the problem of computational protein engineering, in which an
+algorithm is sought that will search among the vast number of possible amino acid sequences for a protein
+with specified properties.
+ Such search problems can often benefit
+from an effective use of parallelism, in which many different possibilities are explored simultaneously in an
+efficient way. For example, in searching for proteins with specified properties, rather than evaluate one amino
+acid sequence at a time it would be much faster to evaluate many simultaneously. What is needed is both
+computational parallelism (i.e., many processors evaluating sequences at the same time) and an intelligent
+strategy for choosing the next set of sequences to evaluate.
+
+
+Many computational problems require a computer program to be adaptive—to continue to perform well in a
+changing environment. This is typified by problems in robot control in which a robot has to perform a task in
+a variable environment, and by computer interfaces that must adapt to the idiosyncrasies of different users.
+
+
+ Nowadays, many AI researchers believe that the "rules" underlying intelligence
+are too complex for scientists to encode by hand in a "top−down" fashion. Instead they believe that the best
+route to artificial intelligence is through a "bottom−up" paradigm in which humans write only very simple
+rules, and complex behaviors such as intelligence emerge from the massively parallel application and
+interaction of these simple rules:
+Eg:   Connectionism (i.e., the study of computer programs inspired by neural
+systems) is one example of this philosophy. Here  the rules are typically simple "neural" thresholding, activation 
+spreading, and strengthening or weakening of connections; the 'hoped−for' emergent behavior(final outcome) is sophisticated 
+pattern recognition and learning.
+
+Similarly, In evolutionary computation the rules are typically "natural selection" with variation due to crossover and/or
+mutation; the hoped−for emergent behavior is the design of high−quality solutions to difficult problems and
+the ability to adapt these solutions in the face of a changing environment.
+
+
