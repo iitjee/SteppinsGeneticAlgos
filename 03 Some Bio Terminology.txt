@@ -1,0 +1,61 @@
+All living organisms consist of cells, and each cell contains the SAME set of one or more
+chromosomes—strings of DNA—that serve as a "blueprint" for the organism.
+
+A chromosome can be conceptually divided into genes— each of which encodes a particular protein. Very roughly, one can think 
+of a gene as encoding a trait, such as eye color.
+
+The different possible "settings" for a particular trait (e.g., blue, brown,
+hazel) are called alleles. Each gene is located at a particular locus (position) on the chromosome.
+
+
+Many organisms have multiple chromosomes in each cell. The complete collection of genetic material (all
+chromosomes taken together) is called the organism's genome.
+
+The term genotype refers to the particular set of genes contained in a genome. Two individuals that have identical genomes are 
+said to have the same genotype. The genotype gives rise, under fetal and later development, to the organism's phenotype—its
+physical and mental characteristics, such as eye color, height, brain size, and intelligence.
+
+
+
+
+
+Organisms whose chromosomes are arrayed in pairs are called diploid; organisms whose chromosomes are
+unpaired are called haploid
+
+ In nature, most sexually reproducing species are diploid, including human beings,
+who each have 23 pairs of chromosomes in each somatic (non−germ) cell in the body. During sexual
+reproduction, recombination (or crossover) occurs: in each parent, genes are exchanged between each pair of
+chromosomes to form a gamete (a single chromosome), and then gametes formed from the two parents pair up to
+create a full set of diploid chromosomes. 
+
+ In haploid sexual reproduction, genes are exchanged between the
+two parents' single−strand chromosomes. Offspring are subject to mutation, in which single nucleotides
+(elementary bits of DNA) are changed from parent to offspring, the changes often resulting from copying
+errors. The fitness of an organism is typically defined as the probability that the organism will live to
+reproduce (viability) or defined as a function of the number of offspring the organism has (fertility).
+
+In genetic algorithms, the term chromosome typically refers to a candidate solution to a problem, often
+encoded as a bit string. 
+The "genes" are either single bits or short blocks of adjacent bits that encode a
+particular element of the candidate solution (e.g., in the context of multiparameter-function optimization, the
+bits encoding a particular parameter might be considered to be a gene).
+
+An allele in a bit string is either 0 or 1;for larger alphabets more alleles are possible at each locus. 
+
+. Crossover typically consists of exchanging genetic
+material between two singlechromosome haploid parents. Mutation consists of flipping the bit at a randomly
+chosen locus (or, for larger alphabets, replacing a the symbol at a randomly chosen locus with a randomly
+chosen new symbol).
+
+Most applications of genetic algorithms employ haploid individuals, particularly, single−chromosome
+individuals. The genotype of an individual in a GA using bit strings is simply the configuration of bits in that
+individual's chromosome. 
+
+Often there is no notion of "phenotype" in the context of GAs, although more
+recently many workers have experimented with GAs in which there is both a genotypic level and a phenotypic
+level (e.g., the bit−string encoding of a neural network and the neural network itself).
+
+
+
+
+
