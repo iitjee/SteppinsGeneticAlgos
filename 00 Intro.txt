@@ -1,0 +1,19 @@
+A genetic algorithm (GA) is great for finding solutions to complex search problems. 
+
+often used in fields such as engineering to create incredibly high quality products thanks to their ability to search a 
+through a huge combination of parameters to find the best match. 
+
+For example, they can search through different combinations of materials and designs to find the perfect combination of both 
+which could result in a stronger, lighter and overall, better final product.
+
+can also be used to design computer algorithms, to schedule tasks, and to solve other optimization problems. 
+
+Genetic algorithms are based on the process of evolution by natural selection which has been observed in nature. They 
+essentially replicate the way in which life uses evolution to find solutions to real world problems. Surprisingly although 
+genetic algorithms can be used to find solutions to incredibly complicated problems, they are themselves pretty simple to use 
+and understand.
+
+
+How they work:
+As we now know they're based on the process of natural selection, this means they take the fundamental properties of natural selection and apply them to whatever problem it is we're trying to solve.
+contd...
