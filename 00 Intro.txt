@@ -5,8 +5,7 @@ through a huge combination of parameters to find the best match.
 
 For example, they can search through different combinations of materials and designs to find the perfect combination of both 
 which could result in a stronger, lighter and overall, better final product.
-
-can also be used to design computer algorithms, to schedule tasks, and to solve other optimization problems. 
+- can also be used to design computer algorithms, to schedule tasks, and to solve other optimization problems. 
 
 Genetic algorithms are based on the process of evolution by natural selection which has been observed in nature. They 
 essentially replicate the way in which life uses evolution to find solutions to real world problems. Surprisingly although 
@@ -14,6 +13,21 @@ genetic algorithms can be used to find solutions to incredibly complicated probl
 and understand.
 
 
+The earliest computer scientists—Alan Turing, John von Neumann, Norbert Wiener, and
+others—were motivated in large part by visions of imbuing computer programs with intelligence, with the
+life−like ability to self−replicate, and with the adaptive capability to learn and to control their environments.
+These early pioneers of computer science were as much interested in biology and psychology as in
+electronics, and they looked to natural systems as guiding metaphors for how to achieve their visions.
+
+
+These biologically motivated computing activities have waxed and waned
+over the years, but since the early 1980s they have all undergone a resurgence in the computation research
+community. The first has grown into the field of neural networks, the second into machine learning, and the
+third into what is now called "evolutionary computation," of which genetic algorithms are the most prominent
+example.
+
 How they work:
-As we now know they're based on the process of natural selection, this means they take the fundamental properties of natural selection and apply them to whatever problem it is we're trying to solve.
+As we now know they're based on the process of natural selection, this means they take the fundamental properties of natural 
+selection and apply them to whatever problem it is we're trying to solve.
+
 contd...
